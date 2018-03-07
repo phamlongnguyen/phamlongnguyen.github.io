@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0;}
+
+
+.col-sm-12.text-xs-center.tieudekhoinhanvanto {
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 23px;
+    margin-bottom: -22px;
+}
+
+.khoinhanvanto:hover .layertruoc {
+    transform: rotateY(180deg);
+}
+.khoinhanvanto:hover .layersau{
+     transform: rotateY(0deg);
+}
+
+a.chucuoisau.fa.fa-arrow-right {
+    color: white;
+    padding-left: 8px;
+    padding-top: 15px;
+}
+
+a.chucuoisau.fa.fa-arrow-right:hover {
+    text-decoration: none;
+}
+
+.iconsau {
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    line-height: 32px;
+    display: inline-block;
+    margin-left: 9px;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 6px;
+    transition: 0.4s;
+}
+
+.iconsau:hover {
+    color: #f3605d;
+    background: white;
+}
+
+.iconsau {
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+p.noidungsau {
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 7px;
+    font-size: 30px;
+}
+
+.layersau {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #F3605D;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 13px;
+    transition: 0.4s;
+    transform: rotateY(-180deg);
+}
+
+.layersau {}
+
+p.gioitheiu {
+    text-align: center;
+    font-family: sans-serif;
+    color: #CFCFCF;
+    font-size: 16px;
+    margin-top: -18px;
+}
+
+p.tentacgia {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #6D7B7B;
+    margin-top: -14px;
+}
+
+img.hinhlayertruoc.img-fluid {
+    width: 100%;
+    height: 82%;
+    border-radius: 50%;
+    transform: scale(0.7);
+    box-shadow: 0 0 1px 6px #F3EFEF;
+    border: 6px solid #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+.layertruoc {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    height: 100%;
+    background: white;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 0.4s;
+}
+
+.khoinhanvanto {
+    width: 100%;
+    height: 313px;
+    position: relative;
+    margin: 40px;
+    border: 1px solid #cab6b6;
+    perspective: 500px;
+    overflow: hidden;
+} 
