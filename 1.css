@@ -1,11 +1,11 @@
 *{margin: 0; padding: 0;}
 
 
-.col-sm-12.text-xs-center.tieudekhoinhanvanto {
+.tieudekhoinhanvanto {
     font-family: sans-serif;
     color: #666666;
     font-size: 23px;
-    margin-bottom: -22px;
+    margin-bottom: -28px;
 }
 
 .khoinhanvanto:hover .layertruoc {
